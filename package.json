@@ -1,0 +1,36 @@
+{
+  "name": "firehoce",
+  "version": "1.0.0",
+  "description": "A Recompose-style Higher Order Component for syncing a React component with a Firebase object.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nybblr/firehoce.git"
+  },
+  "keywords": [
+    "react",
+    "recompose",
+    "re-base",
+    "firebase",
+    "realtime",
+    "higher-order-component",
+    "hoc"
+  ],
+  "author": "Jonathan Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nybblr/firehoce/issues"
+  },
+  "homepage": "https://github.com/nybblr/firehoce#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}
