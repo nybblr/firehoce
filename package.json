@@ -25,6 +25,9 @@
     "url": "https://github.com/nybblr/firehoce/issues"
   },
   "homepage": "https://github.com/nybblr/firehoce#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
