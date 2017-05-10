@@ -83,3 +83,18 @@ let enhance = withFire(
 
 export default enhance(Article);
 ```
+
+## Updating the Ref from Props
+
+Instead of passing a hard-wired object for Re-base options, you can pass a function that will receive the component props and return a dynamically created options object. For example, if you are wrapping a route component that receives URL `params`:
+
+```javascript
+let enhance = withFire(
+  'article', 'setArticle', db,
+  props => ({
+    ref: `article/${props.params.id}`,
+    isNullable: true
+  }),
+  { title: 'Loading', body: 'Loading', author: '—' }
+);
+```
